@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../Images/dark-blur-blurred-gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 120px;
+}
+.left{
+    width: 300px;
+    height: 400px;
+    margin-left: 80px;
+}
+.loginwith{
+    font-size: 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+}
+.right{
+    width: 300px;
+    height: 400px;
+    margin-right: 80px;
+}
+.right button{
+    margin-top: 70px;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button.social-signin{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+button.social-signin.twitter{
+    background-color: #55ACEE;;
+    transition: 0.4s;
+}
+button.social-signin.twitter:hover{
+    transform: scale(1.05);
+}
+button.social-signin.facebook {
+    background-color: #32508E;
+}
+button.social-signin.facebook:hover{
+    transform: scale(1.05);
+}
+button.social-signin.google {
+    background-color: #DD4B39;
+}
+button.social-signin.google:hover{
+    transform: scale(1.05);
+}
+.submit:hover{
+    transform: scale(1.1);
+}
+input[type="text"] {
+    background: transparent;
+    outline: none;
+}
+input[type="email"] {
+    background: transparent;
+    outline: none;
+}
+input[type="password"] {
+    background: transparent;
+    outline: none;
+}
+::placeholder {
+    color: #fff;
+}

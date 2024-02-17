@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+input[type="text"] {
+    background: transparent;
+    outline: none;
+}
+input[type="email"] {
+    background: transparent;
+    outline: none;
+}
+input[type="password"] {
+    background: transparent;
+    outline: none;
+}
+::placeholder {
+    color: #fff;
+}
+input[type="submit"]{
+    transition: 0.5s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(169, 82, 52);
+    color: #fff;
+}
